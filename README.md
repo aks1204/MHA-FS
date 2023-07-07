@@ -98,13 +98,13 @@ We have used DE/rand/2/bin strategy for our Differenetial Evolution algorithm.
 
 Our weighing factor is 0.8 and crossover rate/probability is 0.9.
 
-The graphs below depicts global best fitness value and local best fitness value for Differential Evolution algorithm as a function of number of epochs/iterations.
-
-![gbfc](https://github.com/aks1204/MHA-FS/assets/57048028/13305b97-cbe6-4e22-8988-d8bba2324980)
+The graphs below depict global best fitness value and local best fitness value for Differential Evolution algorithm as a function of number of epochs/iterations.
 
 ![lbfc](https://github.com/aks1204/MHA-FS/assets/57048028/8e2cf1e8-faaf-4296-a44d-0986d6edfdbe)
 
-The above graphs would be plotted and saved in graphs\DE folder after our code has run for Differential Evolution for 100 epochs.
+![gbfc](https://github.com/aks1204/MHA-FS/assets/57048028/13305b97-cbe6-4e22-8988-d8bba2324980)
+
+The above graphs would be plotted and saved in graphs/DE folder after our code has been run for Differential Evolution algorithm for 100 epochs.
 
 ## Genetic Algorithm
 
@@ -112,11 +112,27 @@ To learn more about Genetic Algorithm refer to the link given below.
 
 [Link](https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/)
 
+The graphs below depict global best fitness value and local best fitness value for Genetic Algorithm as a function of number of epochs/iterations.
+
+![lbfc (1)](https://github.com/aks1204/MHA-FS/assets/57048028/f4b5c3c3-7d16-4549-aa71-7be1f539e1aa)
+
+![gbfc (1)](https://github.com/aks1204/MHA-FS/assets/57048028/adf50ae5-d10e-48f4-afb9-73084377e17c)
+
+The above graphs would be plotted and saved in graphs/GA folder after our code has been run for Genetic Algorithm for 100 epochs.
+
 ## Artificial Bee Colony
 
 To learn more about Artificial Bee Colony refer to the link given below.
 
 [Link](https://www.sciencedirect.com/topics/computer-science/artificial-bee-colony)
+
+The graphs below depict global best fitness value and local best fitness value for Artificial Bee Colony algorithm as a function of number of epochs/iterations.
+
+![lbfc (2)](https://github.com/aks1204/MHA-FS/assets/57048028/aa5c7ca9-9583-4e1f-a237-c9c975cd4916)
+
+![gbfc (2)](https://github.com/aks1204/MHA-FS/assets/57048028/b763e69b-de19-41e6-8cd9-46d2ddbe358b)
+
+The above graphs would be plotted and saved in graphs/ABC folder after our code has been run for Artificial Bee Colony algorithm for 100 epochs.
 
 ## Particle Swarm Optimization
 
