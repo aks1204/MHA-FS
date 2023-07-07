@@ -65,15 +65,46 @@ pip install -r requirements.txt
 ```code
 python -m src.models.mha_fs
 ```
-## Fitness Function
 
+##
 
+We need to select the best features in dataset.
+
+Our solution is a 1-D vector, each dimension representing an index of column in the dataset.
+- If it has value 1, meaning this column is selected for the model.
+- If it has value 0, meaning this column is not selected for the model.
+
+So for each of the dimension we need to convert real value back to either 0 or 1.
+- The lower bound is 0 for all dimensions(floor of 0 is 0).
+- The upper bound is 1.99 for all dimensions(floor of 1.99 is 1).
+
+Also if no column is selected we randomly choose any one column.
+
+We have set our population size to 50 and have run our algorithms for 100 epochs.
+
+### Fitness Function
+
+$$ \text{Fitness} = \text{Accuracy} $$
+
+$$ \text{Accuracy} = {\text{Number  of Correctly Classified Instances} \over \text{Total Number of Instances}} $$
 
 ## Differential Evolution
 
 To learn more about Differential Evolution refer to the link given below.
 
 [Link](https://doi.org/10.1016/j.swevo.2018.10.006)
+
+We have used DE/rand/2/bin strategy for our Differenetial Evolution algorithm.
+
+Our weighing factor is 0.8 and crossover rate/probability is 0.9.
+
+The graphs below depicts global best fitness value and local best fitness value for Differential Evolution algorithm as a function of number of epochs/iterations.
+
+![gbfc](https://github.com/aks1204/MHA-FS/assets/57048028/13305b97-cbe6-4e22-8988-d8bba2324980)
+
+![lbfc](https://github.com/aks1204/MHA-FS/assets/57048028/8e2cf1e8-faaf-4296-a44d-0986d6edfdbe)
+
+The above graphs would be plotted and saved in graphs\DE folder after our code has run for Differential Evolution for 100 epochs.
 
 ## Genetic Algorithm
 
