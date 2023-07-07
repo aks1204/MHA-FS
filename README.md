@@ -65,6 +65,9 @@ pip install -r requirements.txt
 ```code
 python -m src.models.mha_fs
 ```
+## Fitness Function
+
+
 
 ## Differential Evolution
 
