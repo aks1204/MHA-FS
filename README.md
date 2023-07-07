@@ -139,3 +139,11 @@ The above graphs would be plotted and saved in graphs/ABC folder after our code 
 ### References
 
 J. Kennedy and R. Eberhart, "Particle swarm optimization," Proceedings of ICNN'95 - International Conference on Neural Networks, Perth, WA, Australia, 1995, pp. 1942-1948 vol.4, doi: 10.1109/ICNN.1995.488968.
+
+The graphs below depict global best fitness value and local best fitness value for Particle Swarm Optimization algorithm as a function of number of epochs/iterations.
+
+![lbfc (3)](https://github.com/aks1204/MHA-FS/assets/57048028/327464e7-7838-475b-bd03-fb600e0500f3)
+
+![gbfc (3)](https://github.com/aks1204/MHA-FS/assets/57048028/6b0a960c-bb7e-4f3e-ad92-3ab14699f5d1)
+
+The above graphs would be plotted and saved in graphs/PSO folder after our code has been run for Particle Swarm Optimization algorithm for 100 epochs.
