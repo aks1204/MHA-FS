@@ -1,18 +1,44 @@
 
 # Arrhythmia Feature Selection using Meta-Heuristic Algorithms
 
-# Problem
-
 Arrhythmia refers to an irregular heartbeat or an abnormal heart rhythm. The heart normally beats in a regular pattern, but in individuals with arrhythmia, the heart may beat too quickly, too slowly, or with an irregular pattern. Some arrhythmias may not cause any noticeable symptoms and may be harmless, while others can be more severe and potentially life-threatening.
 
 There are several parameters/features that we might consider while classifying Arrhythmia into different types.
 
-However, considering all parameters/features for Arrhythmia classification is computationally expensive while dealing with large datasets.
+However, considering all features for Arrhythmia classification is computationally expensive while dealing with large datasets.
 
 We have tried to optimize the problem of Arrhythmia classification by deciding upon which all features to select using Meta-Heuristic Algorithms.
 We have used Random Forest Classfier to report for the accuracy of selected features in the Arrhythmia Classification Task.
 
-# Dataset
+[Random Forest](https://www.ibm.com/topics/random-forest)
+
+## Dataset
+
+Our dataset consists of 452 samples with 279 features and each of the sample has been assigned any one of the 16 classes shown below.
+
+Table below shows the class with its corresponding labels.
+
+| Class label | Class                                      |
+|------------|--------------------------------------------|
+| 1         | Normal                                     |
+| 2         | Ischemic changes (Coronary Artery Disease) |
+| 3         | Old Anterior Myocardial Infarction         |
+| 4         | Old Inferior Myocardial Infarction         |
+| 5         | Sinus tachycardy                           |
+| 6         | Sinus bradycardy                           |
+| 7         | Ventricular Premature Contraction (PVC)    |
+| 8         | Supraventricular Premature Contraction     |
+| 9         | Left bundle branch block                    |
+| 10         | Right bundle branch block                   |
+| 11         | 1. degree AtrioVentricular block            |
+| 12         | 2. degree AV block                         |
+| 13         | 3. degree AV block                         |
+| 14         | Left ventricule hypertrophy                 |
+| 15         | Atrial Fibrillation or Flutter              |
+| 16         | Others                                     |
+
+
+We have split the samples in our dataset to 339 for training and 113 for testing.
 
 ## Dependencies 
 
@@ -27,20 +53,21 @@ First and foremost you need to install Python.
 ## Setup environment
 
 ### Pip 
+
 ```code 
 pip install -r requirements.txt
 ```
 
-# How to run
+## How to run
 
 ```code
 python -m src.models.mha_fs
 ```
 
-# Differential Evolution
+## Differential Evolution
 
-# Genetic Algorithm
+## Genetic Algorithm
 
-# Artificial Bee Colony
+## Artificial Bee Colony
 
-# Particle Swarm Optimization
+## Particle Swarm Optimization
