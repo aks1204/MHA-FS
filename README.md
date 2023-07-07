@@ -21,3 +21,17 @@ First and foremost you need to install Python.
 ```code 
 pip install -r requirements.txt
 ```
+
+# How to run
+
+```code
+python -m src.models.mha_fs
+```
+
+# Differential Evolution
+
+# Genetic Algorithm
+
+# Artificial Bee Colony
+
+# Particle Swarm Optimization
