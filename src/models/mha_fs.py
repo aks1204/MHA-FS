@@ -4,7 +4,10 @@
 #       Github: https://github.com/thieu1995        %                         
 # --------------------------------------------------%
 
-from mealpy.evolutionary_based import DE
+from mealpy.evolutionary_based.DE import BaseDE
+from mealpy.evolutionary_based.GA import BaseGA
+from mealpy.swarm_based.ABC import OriginalABC
+from mealpy.swarm_based.PSO import OriginalPSO
 from sklearn.model_selection import train_test_split
 import numpy as np
 from src.config import Config
@@ -48,8 +51,40 @@ problem = {
 }
 
 ## 2. Define algorithm and trial
-model = DE.SHADE(problem, epoch=10, pop_size=20)
-best_position, best_fitness = model.solve()
-print(f"Best features: {best_position}, Best accuracy: {best_fitness}")
+model = BaseDE(100, 50, 0.8, 0.9, 3)
+
+best_position, best_fitness = model.solve(problem)
+
+model.history.save_global_best_fitness_chart(filename="graphs/DE/gbfc")
+model.history.save_local_best_fitness_chart(filename="graphs/DE/lbfc")
+
+print(f"DE Best features: {best_position}, Best accuracy: {best_fitness}")
+
+model = BaseGA(100, 50, 0.95, 0.025)
+
+best_position, best_fitness = model.solve(problem)
+
+model.history.save_global_best_fitness_chart(filename="graphs/GA/gbfc")
+model.history.save_local_best_fitness_chart(filename="graphs/GA/lbfc")
+
+print(f"GA Best features: {best_position}, Best accuracy: {best_fitness}")
+
+model = OriginalABC(100, 50, 5)
+
+best_position, best_fitness = model.solve(problem)
+
+model.history.save_global_best_fitness_chart(filename="graphs/ABC/gbfc")
+model.history.save_local_best_fitness_chart(filename="graphs/ABC/lbfc")
+
+print(f"ABC Best features: {best_position}, Best accuracy: {best_fitness}")
+
+model = OriginalPSO(100, 50, 2.05, 2.05, 0.4, 0.9)
+
+best_position, best_fitness = model.solve(problem)
+
+model.history.save_global_best_fitness_chart(filename="graphs/PSO/gbfc")
+model.history.save_local_best_fitness_chart(filename="graphs/PSO/lbfc")
+
+print(f"PSO Best features: {best_position}, Best accuracy: {best_fitness}")
 
 
