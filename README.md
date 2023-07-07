@@ -10,7 +10,7 @@ However, considering all features for Arrhythmia classification is computational
 We have tried to optimize the problem of Arrhythmia classification by deciding upon which all features to select using Meta-Heuristic Algorithms.
 We have used Random Forest Classfier to report for the accuracy of selected features in the Arrhythmia Classification Task.
 
-[Random Forest](https://www.ibm.com/topics/random-forest)
+To learn more about Random Forest refer the link https://www.ibm.com/topics/random-forest
 
 ## Dataset
 
