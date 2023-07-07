@@ -10,7 +10,9 @@ However, considering all features for Arrhythmia classification is computational
 We have tried to optimize the problem of Arrhythmia classification by deciding upon which all features to select using Meta-Heuristic Algorithms.
 We have used Random Forest Classfier to report for the accuracy of selected features in the Arrhythmia Classification Task.
 
-To learn more about Random Forest refer the link https://www.ibm.com/topics/random-forest
+To learn more about Random Forest refer to the link given below.
+
+[Link](https://www.ibm.com/topics/random-forest)
 
 ## Dataset
 
@@ -66,8 +68,24 @@ python -m src.models.mha_fs
 
 ## Differential Evolution
 
+To learn more about Differential Evolution refer to the link given below.
+
+[Link](https://doi.org/10.1016/j.swevo.2018.10.006)
+
 ## Genetic Algorithm
+
+To learn more about Genetic Algorithm refer to the link given below.
+
+[Link](https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/)
 
 ## Artificial Bee Colony
 
+To learn more about Artificial Bee Colony refer to the link given below.
+
+[Link](https://www.sciencedirect.com/topics/computer-science/artificial-bee-colony)
+
 ## Particle Swarm Optimization
+
+### References
+
+J. Kennedy and R. Eberhart, "Particle swarm optimization," Proceedings of ICNN'95 - International Conference on Neural Networks, Perth, WA, Australia, 1995, pp. 1942-1948 vol.4, doi: 10.1109/ICNN.1995.488968.
