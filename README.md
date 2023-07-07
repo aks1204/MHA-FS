@@ -1,5 +1,5 @@
 
-# Arrhythmia Feature Selection using Meta-Heuristic Algorithms (MEALPY)
+# Arrhythmia Feature Selection using Meta-Heuristic Algorithms
 
 # Problem
 
