@@ -110,7 +110,7 @@ The above graphs would be plotted and saved in graphs/DE folder after our code h
 
 To learn more about Genetic Algorithm refer to the link given below.
 
-[Link](https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/)
+[Link](https://www.tutorialspoint.com/genetic_algorithms/genetic_algorithms_quick_guide.htm)
 
 We have chosen tournament selection method for selection. In tournament selection we have run tournament amongst 10 inviduals in our population. 
 
