@@ -144,11 +144,9 @@ The above graphs would be plotted and saved in graphs/ABC folder after our code 
 
 ## Particle Swarm Optimization
 
-### References
+To learn more about Particle Swarm Optimization refer to the link given below.
 
-J. Kennedy and R. Eberhart, "Particle swarm optimization," Proceedings of ICNN'95 - International Conference on Neural Networks, Perth, WA, Australia, 1995, pp. 1942-1948 vol.4, doi: 10.1109/ICNN.1995.488968.
-
-###
+[Link](https://ieeexplore.ieee.org/document/488968)
 
 We have set our local and global coefficients for velocity both as 2.05 and inertia/weight coefficient for the bird as a random value between 0.4 and 0.9.
 
