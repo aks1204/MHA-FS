@@ -132,7 +132,7 @@ To learn more about Artificial Bee Colony refer to the link given below.
 
 [Link](https://www.sciencedirect.com/topics/computer-science/artificial-bee-colony)
 
-In Artificial Bee Colony we have set the limit for Number of trials before abandoning a food source(solution) as 5.
+We have set the limit for Number of trials before abandoning a food source(solution) as 5.
 
 The graphs below depict global best fitness value and local best fitness value for Artificial Bee Colony algorithm as a function of number of epochs/iterations.
 
@@ -149,6 +149,8 @@ The above graphs would be plotted and saved in graphs/ABC folder after our code 
 J. Kennedy and R. Eberhart, "Particle swarm optimization," Proceedings of ICNN'95 - International Conference on Neural Networks, Perth, WA, Australia, 1995, pp. 1942-1948 vol.4, doi: 10.1109/ICNN.1995.488968.
 
 ###
+
+We have set our local and global coefficients for velocity both as 2.05 and inertia/weight coefficient for the bird as a random value between 0.4 and 0.9.
 
 The graphs below depict global best fitness value and local best fitness value for Particle Swarm Optimization algorithm as a function of number of epochs/iterations.
 
