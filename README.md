@@ -112,6 +112,12 @@ To learn more about Genetic Algorithm refer to the link given below.
 
 [Link](https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/)
 
+We have chosen tournament selection method for selection. In tournament selection we have run tournament amongst 10 inviduals in our population. 
+
+We have chosen uniform crossover method with 0.95 as our crossover probability.
+
+We have chosen multiple points for mutation with 0.025 as our mutation probability. We have chosen flip method for mutation wherein we have replaced 1 with 0 or vice versa for a particular dimension in our dataset.
+
 The graphs below depict global best fitness value and local best fitness value for Genetic Algorithm as a function of number of epochs/iterations.
 
 ![lbfc (1)](https://github.com/aks1204/MHA-FS/assets/57048028/f4b5c3c3-7d16-4549-aa71-7be1f539e1aa)
@@ -126,6 +132,8 @@ To learn more about Artificial Bee Colony refer to the link given below.
 
 [Link](https://www.sciencedirect.com/topics/computer-science/artificial-bee-colony)
 
+In Artificial Bee Colony we have set the limit for Number of trials before abandoning a food source(solution) as 5.
+
 The graphs below depict global best fitness value and local best fitness value for Artificial Bee Colony algorithm as a function of number of epochs/iterations.
 
 ![lbfc (2)](https://github.com/aks1204/MHA-FS/assets/57048028/aa5c7ca9-9583-4e1f-a237-c9c975cd4916)
@@ -139,6 +147,8 @@ The above graphs would be plotted and saved in graphs/ABC folder after our code 
 ### References
 
 J. Kennedy and R. Eberhart, "Particle swarm optimization," Proceedings of ICNN'95 - International Conference on Neural Networks, Perth, WA, Australia, 1995, pp. 1942-1948 vol.4, doi: 10.1109/ICNN.1995.488968.
+
+###
 
 The graphs below depict global best fitness value and local best fitness value for Particle Swarm Optimization algorithm as a function of number of epochs/iterations.
 
